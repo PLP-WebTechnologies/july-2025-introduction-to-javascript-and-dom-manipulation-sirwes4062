@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week five: Intro to JavaScript and DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Input your name</h1>
+      <form id="myForm">
+        <label for="username" class="username">Username:</label><br />
+        <input
+          type="text"
+          name="username"
+          placeholder="Enter your name"
+          class="input-field" />
+        <button type="submit" class="button">Submit</button>
+        <p id="result" class="result-text"></p>
+      </form>
+    </div>
+
+    <!-- onclick count down -->
+    <h2>Countdown Animation</h2>
+    <div id="countdown" style="font-size: 2rem; color: #4caf50"></div>
+    <button id="startBtn">Start Countdown</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
